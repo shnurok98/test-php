@@ -1,0 +1,43 @@
+.sidebar{
+	width: 200px;
+	background-color: rgba(18, 34, 52, 0.2);
+	border: 1px solid black;
+	text-align: center;
+	margin-right: 15px;
+	overflow: auto;
+	padding: 25px 0;
+	height: 500px;
+
+}
+
+#main{
+	width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	padding: 10px;
+}
+
+.content {
+	width: 800px;
+}
+
+.article-small {
+	border: 1px solid black;
+	margin: 0px 25px;
+	margin-bottom: 15px;
+	padding: 5px;
+	cursor: pointer;
+	box-shadow:5px 5px black
+}
+
+button {
+	margin-top: 15px;
+}
+
+select {
+	width: 180px;
+}
+
+.article-full {
+	cursor: default;
+}

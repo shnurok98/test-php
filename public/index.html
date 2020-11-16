@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Тестовое задание</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<div id="main">
+		<div class="sidebar">
+			<h4>Фильтры</h4>
+			<form name="filterForm" id="filterForm">
+				<h5>Кол-во просмотров</h5>
+				<input type="text" name="views" placeholder="Используйте (=, >, <) =5">
+				<h5>Продукт</h5>
+				<select id="slProduct" name="product">
+					<option selected disabled value="0">Выберите продукт:</option>
+				</select>
+				<h5>Дата добавления</h5>
+				<input type="date" name="time_create">
+				<h5>Кол-во выводимых статей</h5>
+				<select name="cntArticle">
+					<option value="1">1</option>
+					<option value="3">3</option>
+					<option value="5">5</option>
+					<option selected value="10">10</option>
+					<option value="20">20</option>
+				</select>
+				<br>
+				<button type="button" onclick="onFilter()">Показать</button>
+			</form>
+		</div>
+
+		<div class="content">
+			
+		</div>
+	</div>
+</body>
+</html>
